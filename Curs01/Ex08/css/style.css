@@ -3,15 +3,20 @@
   border: 1px solid black;
   padding: 10px;
   margin: 0 auto;
+  margin: auto;
   display: flex;
   justify-content: space-evenly;
 }
 
-.square {
+.square-peru, .square-magenta, .square-purple {
   width: 200px;
   height: 200px;
   border: 1px solid black;
   background-color: turquoise;
+}
+
+.square-purple {
+  background-color: purple;
 }
 
 .square-magenta {
@@ -20,21 +25,6 @@
 
 .square-peru {
   background-color: peru;
-}
-
-.square-purple {
-  background-color: purple;
-}
-
-.circles {
-  margin: 0 auto;
-  width: 75%;
-  border: 2px dotted brown;
-  border-radius: 20px;
-}
-
-@mixin circle {
-  @include circle-border();
 }
 
 /*# sourceMappingURL=style.css.map */

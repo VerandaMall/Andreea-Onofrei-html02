@@ -87,10 +87,6 @@ body > h1 {
   .box-5 {
     display: none;
   }
-
-  body > h3 {
-    display: block;
-  }
 }
 
 @media (max-width: 1200px) and (min-width: 600px) {
@@ -108,5 +104,11 @@ body > h1 {
 @media (min-width: 1000px) {
   body > h3 {
     color: red;
+  }
+}
+
+@media (min-width: 1200px) {
+  body > h3 {
+    display: block;
   }
 }
