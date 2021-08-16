@@ -26,4 +26,15 @@
   background-color: purple;
 }
 
+.circles {
+  margin: 0 auto;
+  width: 75%;
+  border: 2px dotted brown;
+  border-radius: 20px;
+}
+
+@mixin circle {
+  width: 200px;
+}
+
 /*# sourceMappingURL=style.css.map */
