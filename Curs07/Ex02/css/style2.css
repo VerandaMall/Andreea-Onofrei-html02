@@ -3,10 +3,10 @@ body {
   margin: 0;
 }
 
-.hero {
+.patrat {
   width: 100px;
   height: 100px;
-  background-color: black;
+  background-color: pink;
   animation: run 10s linear infinite;
 }
 
@@ -15,17 +15,26 @@ body {
     transform: translate(0, 0);
   }
 
-  33% {
+  20% {
     transform: translate(0, calc(100vh - 100px));
-    background-color: red;
+    background-color: purple;
   }
 
-  66% {
+  40% {
+    transform: translate(calc(100vh - 100px), 0);
+    background-color: rebeccapurple;
+  }
+
+  60% {
     transform: translate(calc(100vw - 100px), calc(100vh - 100px));
+  }
+
+  80% {
+    transform: translate(calc(100vh - 100px), calc(100vh - 100px));
   }
 
   100% {
     transform: translate(0, 0);
-    background-color: orange;
+    background-color: plum;
   }
 }
