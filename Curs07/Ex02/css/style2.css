@@ -21,16 +21,18 @@ body {
   }
 
   40% {
-    transform: translate(calc(100vh - 100px), 0);
+    transform: translate(calc(100vw - 100px), calc(100vh - 100px));
     background-color: rebeccapurple;
   }
 
   60% {
-    transform: translate(calc(100vw - 100px), calc(100vh - 100px));
+    transform: translate(calc(100vw - 100px), 0);
+    background-color: blueviolet;
   }
 
   80% {
-    transform: translate(calc(100vh - 100px), calc(100vh - 100px));
+    transform: translate(0, calc(100vh - 100px));
+    background-color: pink;
   }
 
   100% {
